@@ -1,0 +1,25 @@
+{
+    "name": "cmdrtpir/usehttps",
+    "description": "Add the ability to force your Laravel project to use https on all generated links.",
+    "authors": [
+        {
+            "name": "Erik Fredriksen",
+            "email": "erik@fredriksen.se"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CmdrTpir\\UseHTTPS\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CmdrTpir\\UseHTTPS\\HttpsServiceProvider"
+            ]
+        }
+    },
+    "require": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
